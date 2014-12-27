@@ -14,8 +14,7 @@
 DROP DATABASE IF EXISTS `yg_temple`;
 CREATE DATABASE IF NOT EXISTS `yg_temple` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `yg_temple`;
-
-
+ 
 -- Dumping structure for table yg_temple.application_details
 DROP TABLE IF EXISTS `application_details`;
 CREATE TABLE IF NOT EXISTS `application_details` (
