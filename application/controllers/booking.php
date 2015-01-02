@@ -43,7 +43,8 @@ class Booking extends MY_Controller {
         if (formtoken::validateToken($_POST)) {
 			$where_cond = ' blocks_id = "'.$_POST['blocks_id'].'" and rooms_id = "'.$_POST['rooms_id'].'" and booked_status = 1';
             $booked_status = $this->booking_model->getBookingStatus($where_cond);
-            if($booked_status[0]->booked_status)
+			
+            if($booked_status && $booked_status[0]->booked_status)
             {
                 die('Room is already Booked for the day.. Please <a href="'.base_url().'booking">click here</a> to book a new Room');
             }

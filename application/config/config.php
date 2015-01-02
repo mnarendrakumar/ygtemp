@@ -356,7 +356,7 @@ $config['rewrite_short_tags'] = FALSE;
 |
 */
 $config['proxy_ips'] = '';
-$config['app_name'] = 'vemulawada_swamy';
+$config['app_name'] = 'ygtemp';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */

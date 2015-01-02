@@ -4,7 +4,7 @@ function Clean4Print( tag_id )
 	//var print = window.print();
 	clean_popup = window.document.open( "about:blank","","");
   	clean_popup.document.write('<html>\n<head>\n<title>'+document.title+'</title>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">\n<link href="styles.css" rel="stylesheet" type="text/css">\n</head>\n');
-  	clean_popup.document.write('<body style="background-color:#FFFFFF"><table width="850" cellspacing="0" cellpadding="1" align="center"  bgcolor="#FFFFFF" class="tabborder"><tr><td colspan="3" align="center" style="padding-top:10px; font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#000000"><strong>Sri Raja Rajeshwara Swamy Devasthanam, Vemulawada, Karimnagar Dist.   </strong></td></tr><tr><td colspan="3">' );
+  	clean_popup.document.write('<body style="background-color:#FFFFFF"><table width="850" cellspacing="0" cellpadding="1" align="center"  bgcolor="#FFFFFF" class="tabborder"><tr><td colspan="3" align="center" style="padding-top:10px; font-size:18px; font-family:Arial, Helvetica, sans-serif; color:#000000"><strong>Sri Lakshmi Narasimha Swamy Devasthanam, Yadagiri Gutta.   </strong></td></tr><tr><td colspan="3">' );
 
 	// output all sections marked with tag_id
 	while (ref!=null)
